@@ -1,0 +1,253 @@
+/* online font */
+@font-face {font-family: "Myriad Pro";
+    src: url("http://db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.svg#Myriad Pro") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "Ananda Hastakchyar";
+    src: url("http://db.onlinewebfonts.com/t/c6af6e111fcb1b897868dbd3a05215f1.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/c6af6e111fcb1b897868dbd3a05215f1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/c6af6e111fcb1b897868dbd3a05215f1.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/c6af6e111fcb1b897868dbd3a05215f1.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/c6af6e111fcb1b897868dbd3a05215f1.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/c6af6e111fcb1b897868dbd3a05215f1.svg#Ananda Hastakchyar") format("svg"); /* iOS 4.1- */
+}
+
+/* global css configurations*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Banner page css */
+.banner {
+    color: #fff;
+    background: no-repeat url('../images/banner.png');
+    width: 100%;
+    height: 540px;
+    display: block;
+    position: relative;
+}
+div.navbar-brand {
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+}
+.contactAndLogin {
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Font Awesome 5 Free";
+    text-align: right;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.contactAndLogin div {
+    padding-right: 50px;
+}
+.contactAndLogin div.loginRegister {
+    font-family: "Open Sans";
+    padding-right: 5px;
+}
+
+.hr {
+    border-top: 2px dotted #ffffff; /* dotted line in banner */
+}
+
+a.navbar-brand {
+    font-size: 22px;
+    line-height: 30px;
+    color: #12a84e;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.menuNav {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Open Sans";
+}
+a.nav-link {
+    color: #ffffff;
+}
+
+.bannerTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.wordOne {
+    font-size: 35px;
+    color: #ffffff;
+    font-family: "Ananda Hastakchyar";
+    text-align: center;
+}
+.wordTwo {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.tagButton {
+    width: 178px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+}
+.tagButton p {
+    padding-top: 8px;
+    font-size: 18px;
+    color: #12a84e;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+/* blog page css */
+#blog2 {
+    padding: 60px 0px;
+    height: 1400px;
+}
+.col-12 {
+    padding: 0px;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    border: 1px solid #d8d8d8;
+    background-color: #ffffff;
+}
+.card-title {
+    font-size: 26px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+.card-text {
+    font-size: 16px;
+    line-height: 30px;
+    color: #5c5c5c;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.card-contact {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Font Awesome 5 Free";
+}
+.card-read {
+    width: 140px;
+    height: 45px;
+    background-color: #12a84e;
+    border: 1px solid #12a84e;
+}
+.card-read p {
+    padding-top: 8px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.card-horizontal:hover {
+    border: 1px solid #12a84e;;
+}
+.card-horizontal:hover .card-title {
+    color: #12a84e;
+}
+.card-horizontal:hover .card-read {
+    background-color: #ffffff;
+}
+.card-horizontal:hover .card-read p{
+    color: #12a84e;
+}
+
+/* Available day css */
+.dayAvailable {
+    width: 100%;
+    background-color: #12a84e;
+}
+.openingTitle {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    justify-content: center;
+    font-family: "Open Sans";
+}
+.dayTiming {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    justify-content: center;
+    font-family: "Open Sans";
+    text-align: center;
+}
+.rightDivider {
+    margin: 4px;
+    padding: 8px;
+    border-right: 1px solid #ffffff;
+}
+.noDivider {
+    padding: 12px;
+}
+
+/* footer page css */
+#footer {
+    overflow: hidden;
+}
+.bgFooter {
+    height: 350px;
+    background: repeat linear-gradient(-90deg, #000000 0%, #171717 50%, #000000 100%);
+}
+div.box {
+    color: #ffffff;
+    padding: 60px 40px;
+}
+div.box h4 {
+    color: #12a84e;
+    padding-bottom: 25px;
+}
+input {
+    padding: 6px;
+}
+input[type=submit] {
+    border: 1px solid #12a84e;
+}
+.subscribe {
+    background-color: #12a84e;
+}
+.gapItem {
+    padding: 3px 0px;
+}
+tr.ways td>i {
+    color: #12a84e;
+}
+
+/* copy rights css */
+div.copyRights {
+    padding: 8px 0px;
+    font-size: 14px;
+    color: #000000;
+    font-family: "Open Sans";
+    text-align: center;
+    background-color: #ffffff;
+}
+div.copyRights a {
+    color: #12a84e;
+}
