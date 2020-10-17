@@ -22,11 +22,14 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body {
+    overflow-x: hidden;
+}
 
 /* Banner page css */
 .banner {
     color: #fff;
-    background: no-repeat url('../images/banner.png');
+    background: no-repeat url('../images/banner.png') center center/cover;
     width: 100%;
     height: 540px;
     display: block;
@@ -57,7 +60,7 @@ div.navbar-brand {
 }
 
 .hr {
-    border-top: 2px dotted #ffffff; /* dotted line in banner */
+    border: 1px dotted #ffffff; /* dotted line in banner */
 }
 
 a.navbar-brand {
@@ -120,7 +123,6 @@ a.nav-link {
 /* blog page css */
 #blog2 {
     padding: 60px 0px;
-    height: 1400px;
 }
 .col-12 {
     padding: 0px;
@@ -187,6 +189,7 @@ a.nav-link {
     font-size: 20px;
     color: #ffffff;
     font-weight: 600;
+    display: flex;
     justify-content: center;
     font-family: "Open Sans";
 }
@@ -212,7 +215,7 @@ a.nav-link {
     overflow: hidden;
 }
 .bgFooter {
-    height: 350px;
+    /* height: 350px; */
     background: repeat linear-gradient(-90deg, #000000 0%, #171717 50%, #000000 100%);
 }
 div.box {
@@ -235,6 +238,9 @@ input[type=submit] {
 .gapItem {
     padding: 3px 0px;
 }
+tr.ways td {
+    padding: 10px 0px;
+}
 tr.ways td>i {
     color: #12a84e;
 }
@@ -250,4 +256,152 @@ div.copyRights {
 }
 div.copyRights a {
     color: #12a84e;
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    div.navbar-brand , .contactAndLogin , .menuNav {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    a.navbar-brand {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .wordOne {
+        font-size: 29px;
+    }
+    .wordTwo {
+        font-size: 33px;
+    }
+    .tagButton {
+        width: 158px;
+        height: 40px;
+    }
+    .tagButton p {
+        padding-top: 6px;
+        font-size: 16px;
+    }
+    
+    .card-title {
+        font-size: 24px;
+    }
+    .card-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .card-contact {
+        font-size: 12px;
+    }
+    .card-read {
+        width: 120px;
+        height: 40px;
+    }
+    .card-read p {
+        padding-top: 7px;
+        font-size: 14px;
+    }
+
+    div.copyRights {
+        font-size: 12px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    div.navbar-brand , .contactAndLogin , .menuNav {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    a.navbar-brand {
+        font-size: 17px;
+        line-height: 18px;
+    }
+    .wordOne {
+        font-size: 24px;
+    }
+    .wordTwo {
+        font-size: 27px;
+    }
+    .tagButton {
+        width: 138px;
+        height: 36px;
+    }
+    .tagButton p {
+        padding-top: 5px;
+        font-size: 15px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+    .card-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .card-contact {
+        font-size: 10px;
+    }
+    .card-read {
+        width: 100px;
+        height: 35px;
+    }
+    .card-read p {
+        padding-top: 6px;
+        font-size: 13px;
+    }
+
+    div.copyRights {
+        font-size: 10px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    div.navbar-brand , .contactAndLogin , .menuNav {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    a.navbar-brand {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .wordOne {
+        font-size: 18px;
+    }
+    .wordTwo {
+        font-size: 22px;
+    }
+    .tagButton {
+        width: 128px;
+        height: 34px;
+    }
+    .tagButton p {
+        padding-top: 4px;
+        font-size: 14px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+    .card-text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .card-contact {
+        font-size: 18px;
+    }
+    .card-read {
+        width: 120px;
+        height: 40px;
+    }
+    .card-read p {
+        padding-top: 7px;
+        font-size: 14px;
+    }
+
+    div.copyRights {
+        font-size: 8px;
+    }
 }
