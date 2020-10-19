@@ -124,6 +124,9 @@ a.nav-link {
 #blog2 {
     padding: 60px 0px;
 }
+.img-fluid {
+    max-width: 370px !important;
+}
 .col-12 {
     padding: 0px;
 }
@@ -141,7 +144,6 @@ a.nav-link {
 }
 .card-text {
     font-size: 16px;
-    line-height: 30px;
     color: #5c5c5c;
     font-weight: 400;
     font-family: "Open Sans";
@@ -265,6 +267,9 @@ div.copyRights a {
         font-size: 12px;
         line-height: 20px;
     }
+    .contactAndLogin div {
+        padding-right: 40px;
+    }
     a.navbar-brand {
         font-size: 20px;
         line-height: 20px;
@@ -283,16 +288,17 @@ div.copyRights a {
         padding-top: 6px;
         font-size: 16px;
     }
-    
+    .img-fluid {
+        max-width: 280px !important;
+    }
     .card-title {
-        font-size: 24px;
+        font-size: 22px;
     }
     .card-text {
-        font-size: 15px;
-        line-height: 25px;
+        font-size: 14px;
     }
     .card-contact {
-        font-size: 12px;
+        font-size: 11px;
     }
     .card-read {
         width: 120px;
@@ -314,6 +320,9 @@ div.copyRights a {
         font-size: 11px;
         line-height: 16px;
     }
+    .contactAndLogin div {
+        padding-right: 30px;
+    }
     a.navbar-brand {
         font-size: 17px;
         line-height: 18px;
@@ -332,13 +341,14 @@ div.copyRights a {
         padding-top: 5px;
         font-size: 15px;
     }
-
+    .img-fluid {
+        max-width: 220px !important;
+    }
     .card-title {
-        font-size: 22px;
+        font-size: 20px;
     }
     .card-text {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 12px;
     }
     .card-contact {
         font-size: 10px;
@@ -363,6 +373,9 @@ div.copyRights a {
         font-size: 10px;
         line-height: 13px;
     }
+    .contactAndLogin div {
+        padding-right: 20px;
+    }
     a.navbar-brand {
         font-size: 16px;
         line-height: 16px;
@@ -381,16 +394,17 @@ div.copyRights a {
         padding-top: 4px;
         font-size: 14px;
     }
-
+    .img-fluid {
+        max-width: 160px !important;
+    }
     .card-title {
-        font-size: 22px;
+        font-size: 18px;
     }
     .card-text {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 11px;
     }
     .card-contact {
-        font-size: 18px;
+        font-size: 9px;
     }
     .card-read {
         width: 120px;
