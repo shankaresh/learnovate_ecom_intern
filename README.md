@@ -7,7 +7,7 @@ web developer internship from oct 12
 
 ### Task 2
 - install wordpress and customize
-- [view]()
+- [view](https://github.com/shankaresh/learnovate_ecom_intern/blob/main/task%202%20(28-oct-2020).png)
 
 ### Task 3
 - design a organization website
