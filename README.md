@@ -10,5 +10,5 @@ web developer internship from oct 12
 - [view](https://github.com/shankaresh/learnovate_ecom_intern/blob/main/task%202%20(28-oct-2020).png)
 
 ### Task 3
-- design a organization website
-- [view]() , [source code](https://github.com/shankaresh/learnovate_ecom_intern/tree/main/task%203%20(4-nov-2020))
+- design a organization website 
+- at wordpress (4-nov-2020)
